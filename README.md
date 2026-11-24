@@ -9,6 +9,7 @@ A C++17 grid-pathfinding demo that runs Depth-First Search (DFS), Breadth-First 
 - Compare the paths and costs produced by DFS, BFS, and A*.
 - Move in eight directions: horizontal, vertical, and diagonal.
 - Orthogonal moves cost 10; diagonal moves cost 14.
+- A* uses a Manhattan heuristic per the assignment spec; with diagonal moves this can overestimate, so A* isn't guaranteed optimal here.
 
 ## Requirements
 
